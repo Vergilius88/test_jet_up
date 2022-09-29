@@ -17,7 +17,7 @@ export const data = [
     },
     {
         english: "good",
-        ukrainian: "хороший"
+        ukrainian: "гарний"
     },
     {
         english: "low",
@@ -29,7 +29,7 @@ export const data = [
     },
     {
         english: "write",
-        ukrainian: "писать"
+        ukrainian: "писати"
     },
     {
         english: "could",
@@ -49,7 +49,7 @@ export const data = [
     },
     {
         english: "close",
-        ukrainian: "близко"
+        ukrainian: "близько"
     },
     {
         english: "wood",
@@ -61,7 +61,7 @@ export const data = [
     },
     {
         english: "river",
-        ukrainian: "річкв"
+        ukrainian: "річка"
     },
     {
         english: "soon",
