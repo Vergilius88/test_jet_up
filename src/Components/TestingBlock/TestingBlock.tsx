@@ -17,6 +17,7 @@ export const TestingBlock = () => {
     const [randomWordsIndex, setRandomWordsIndex] = useState<number>(0);
     const [trueAnswers, setTrueAnswers] = useState<number>(0);
 
+
     const nextWord = (e: BaseSyntheticEvent) => {
         e.preventDefault();
         setRandomWordsIndex(randomWordsIndex + 1);
@@ -36,7 +37,7 @@ export const TestingBlock = () => {
         dispatch(writeResults(result));
         navigate(routes.resultsPage);
     }
-  
+
     useEffect(() => {
         const randomWords = shuffle(wordsFromDictionary).slice(1, 10);
         const preparedRandomWords = randomWords.map((i: { english: string, ukraine: string }) => {

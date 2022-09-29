@@ -2,7 +2,6 @@
   "name": "test_jet_up",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@types/node": "17.0.36",
@@ -23,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
@@ -43,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
