@@ -1,0 +1,21 @@
+{
+  "extends": ["react-app"],
+  "overrides": [
+    {
+      "files": ["**/*.ts?(x)"],
+      "rules": {
+        "no-var": "error",
+        "semi": "error",
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "no-multi-spaces": "error",
+        "space-in-parens": "error",
+        "no-multiple-empty-lines": "error",
+        "prefer-const": "error",
+        "no-use-before-define": "error",
+        "quotes": [2, "double", "avoid-escape"],
+        "comma-dangle": "error",
+        "no-unused-vars": "off"
+      }
+    }
+  ]
+}

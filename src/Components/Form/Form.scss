@@ -1,0 +1,16 @@
+.formContainer {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    position: relative;
+    width: 50%;
+}
+.formTitle{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

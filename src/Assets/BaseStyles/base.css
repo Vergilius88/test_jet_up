@@ -1,0 +1,95 @@
+*,
+*:after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #131313;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.btn-default {
+  background-color: #ddc;
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.btn-accent {
+  background-color: #ffd2a8;
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.btn-danger {
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  transition: box-shadow 0.2s;
+  background-color: #ffa2a8;
+}
+
+.btn-icon {
+  padding: .75em;
+  line-height: 1;
+}
+
+.btn-icon + .btn-icon {
+  margin-left: 5px;
+}

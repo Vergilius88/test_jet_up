@@ -1,0 +1,35 @@
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 10rem;
+    background-color: #f7f7f8;
+    min-width: 65rem;
+}
+
+.logoTitle {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 2rem;
+    color: #131313;
+    text-transform: uppercase;
+}
+
+.avatarWrapper {
+    width: 9rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & button {
+        font-size: 1.4rem;
+        width: fit-content;
+    }
+}
+.avatarImg {
+    width: 6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}

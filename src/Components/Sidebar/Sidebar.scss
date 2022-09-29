@@ -1,0 +1,35 @@
+.sidebarContent {
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    padding: 3rem 10rem 0;
+    max-width: 25%;
+    min-width: 27rem;
+    background-color: #ffd2a8;
+    height: 100%;
+    box-shadow: 2rem 0rem 2rem rgba(0, 0, 0, 0.1);
+    bottom: 50%;
+    top: 0;
+    left: -50%;
+    transition: left 0.4s;
+}
+
+.active {
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.sidebarListItemLink {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    line-height: 2.8rem;
+    color: black;
+    padding: 2rem 0;
+}
