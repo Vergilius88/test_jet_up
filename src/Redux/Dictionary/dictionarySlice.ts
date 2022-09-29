@@ -3,7 +3,7 @@ import { data } from "../../Assets/Data/basicDataForDictionary";
 
 interface Word {
   english: string;
-  ukraine: string;
+  ukrainian: string;
 }
 
 interface Props {

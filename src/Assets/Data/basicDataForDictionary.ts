@@ -1,86 +1,86 @@
 export const data = [
     {
         english: "act",
-        ukraine: "діяти"
+        ukrainian: "діяти"
     },
     {
         english: "men",
-        ukraine: "люди"
+        ukrainian: "люди"
     },
     {
         english: "house",
-        ukraine: "дім"
+        ukrainian: "дім"
     },
     {
         english: "show",
-        ukraine: "показувати"
+        ukrainian: "показувати"
     },
     {
         english: "good",
-        ukraine: "хороший"
+        ukrainian: "хороший"
     },
     {
         english: "low",
-        ukraine: "низький"
+        ukrainian: "низький"
     },
     {
         english: "your",
-        ukraine: "твій"
+        ukrainian: "твій"
     },
     {
         english: "write",
-        ukraine: "писать"
+        ukrainian: "писать"
     },
     {
         english: "could",
-        ukraine: "міг"
+        ukrainian: "міг"
     },
     {
         english: "page",
-        ukraine: "сторінка"
+        ukrainian: "сторінка"
     },
     {
         english: "farm",
-        ukraine: "ферма"
+        ukrainian: "ферма"
     },
     {
         english: "run",
-        ukraine: "бігти"
+        ukrainian: "бігти"
     },
     {
         english: "close",
-        ukraine: "близко"
+        ukrainian: "близко"
     },
     {
         english: "wood",
-        ukraine: "дерево"
+        ukrainian: "дерево"
     },
     {
         english: "mile",
-        ukraine: "миля"
+        ukrainian: "миля"
     },
     {
         english: "river",
-        ukraine: "річкв"
+        ukrainian: "річкв"
     },
     {
         english: "soon",
-        ukraine: "скоро"
+        ukrainian: "скоро"
     },
     {
         english: "song",
-        ukraine: "пісня"
+        ukrainian: "пісня"
     },
     {
         english: "fire",
-        ukraine: "вогонь"
+        ukrainian: "вогонь"
     },
     {
         english: "island",
-        ukraine: "острів"
+        ukrainian: "острів"
     },
     {
         english: "game",
-        ukraine: "гра"
+        ukrainian: "гра"
     }
 ];

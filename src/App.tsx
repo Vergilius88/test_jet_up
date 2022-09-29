@@ -9,7 +9,7 @@ import "./Assets/BaseStyles/fonts.css";
 import DictionaryPage from "./Pages/DictionaryPage/DictionaryPage";
 import AddWordsPage from "./Pages/AddWordsPage/AddWordsPage";
 import ResultsPage from "./Pages/ResultsPage/ResultsPage";
-import TestPage from "./Pages/TestingPage/TestingPage";
+import TestingPage from "./Pages/TestingPage/TestingPage";
 
 export default function App() {
     
@@ -34,7 +34,7 @@ export default function App() {
                     path={routes.wordCheckPage}
                     element={
 
-                        <><Header /><TestPage/><Footer /></>
+                        <><Header /><TestingPage/><Footer /></>
 
                     }
                 />

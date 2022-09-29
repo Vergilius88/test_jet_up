@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import "./Header.scss";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import Button from "../../Components/Button/MainButton";
-import { useOnClickOutside } from "../../Utils/OutsideClick";
+import { useOnClickOutside } from "../../Utils/OutsideClick/outsideClick";
 
 export default function Header() {
     const ref = useRef();

@@ -17,10 +17,10 @@ export default function AddWordsPage() {
         setTranslation("");
     };
 
-    const writeWord = () => {
+    const addWordToDictionary = () => {
         const dictionaryItem = {
             english: word,
-            ukraine: translation
+            ukrainian: translation
         };
         dispatch(writeDownWord([dictionaryItem]));
         clearForm();
@@ -33,8 +33,8 @@ export default function AddWordsPage() {
                 <InputField placeholder="слово англійською" value={word} setValue={setWord} />
                 <InputField placeholder="переклад" value={translation} setValue={setTranslation} />
                 <Button
-                    title={"Добавити до словника"}
-                    onClick={writeWord}
+                    title={"Додати до словника"}
+                    onClick={addWordToDictionary}
                     className="btnFilters"
                 />
             </Form>
